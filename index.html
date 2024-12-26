@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color </title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body onload="initialColor()">
+    <div class="content">
+        <div class="color-display" id="colorDisplay"></div>
+        <div>
+            <span id="copy" style="cursor: pointer;">📋</span>
+            <p class="display-5 title" id="title" onmouseenter="copyColor()"></p>
+        </div>
+        <button
+            type="button"
+            class="btn"
+            onclick="colorGenerator()"
+            id="btn"
+        >
+            New Color
+        </button>
+        <div id="copyFeedback" class="mt-2" style="display: none; color: rgb(9, 9, 9);">Color copied!</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

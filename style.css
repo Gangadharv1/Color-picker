@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(140deg,#f3f5f3f5,#3edc09b8);
+}
+
+.content {
+    text-align: center;
+}
+
+.color-display {
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #00000070;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #495057;
+}
